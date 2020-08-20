@@ -1,5 +1,5 @@
 # Face-recognition
-Face recognition model using CNN in both Keras and Tensorflow
+Face recognition model using CNN in both Keras and Tensorflow \n
 Run save_face.py to save your faces in database. 
    It will ask for id. start from 1.
    image number starts from 1 and it takes 300 images of each face to train.
