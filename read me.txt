@@ -1,0 +1,10 @@
+1. Run save_face.py to save your faces in database. 
+    It will ask for id. start from 1.
+    image number starts from 1 and it takes 300 images of each face to train.
+2. Run store_facial_features.py
+   It converts each face into embeddings and store in dataset.csv where each row contains 128 columns
+3. Run csv_to_pickle.py 
+  Four new files will get generated (train_features, test_features,train_labels and test_labels).
+4. Run python train_model_tf.py
+5. Run python train_model_keras.py
+6. python recognize.py
